@@ -13,7 +13,7 @@ import {
 } from "@/sections";
 import { motion as m, useCycle } from "framer-motion";
 import { useRef, useState } from "react";
-import data from "@/data/wedding-data.json"
+import data from "@/data/wedding-data.json";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -80,14 +80,10 @@ export default function Home() {
               animate={{ x: "0%" }}
               transition={{ etype: "spring", stiffness: 100, duration: 2 }}
             >
-              <Header m={m} />
-              <SubHeader m={m} />
               <Bride m={m} />
               <Countdown m={m} />
               <Event m={m} />
-              { data.show_gallery && <Gallery m={m} /> }
-              <Gift m={m} />
-              <Footer m={m} />
+              {data.show_gallery && <Gallery m={m} />}
             </m.div>
           </>
         )}

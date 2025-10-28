@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
-import data from "@/data/wedding-data.json"
+import data from "@/data/wedding-data.json";
 
 export default function Opening({ handleOnOpen, transition }) {
-  const router = useRouter()
-  const { query } = router
-  const tm = query?.tm
+  const router = useRouter();
+  const { query } = router;
+  const tm = query?.tm;
 
   return (
     <motion.div
@@ -21,7 +21,9 @@ export default function Opening({ handleOnOpen, transition }) {
       <div className="p-8 xs:p-4 relative bg-primary text-background text-center font-alice">
         <div className="text-xl font-bold">Selamat Datang</div>
         <div className="text-sm italic">Bapak/Ibu/Saudara/i</div>
-        <div className="text-xl my-2 font-alice font-bold">{tm ? tm : 'Tamu Undangan'}</div>
+        <div className="text-xl my-2 font-alice font-bold">
+          {tm ? tm : "Tamu Undangan"}
+        </div>
         <div className="flex justify-center items-center">
           <img
             src={`./theme/${data.theme}/love-latter.svg`}
@@ -30,9 +32,9 @@ export default function Opening({ handleOnOpen, transition }) {
         </div>
 
         <div className="text-sm">
-          Tanpa mengurangi rasa hormat, kami memberikan kabar bahagia ini dan
-          memohon restu dari rekan sekalian untuk senantiasa mendoakan
-          kelancaran acara pernikahan kami.
+          Tanpa mengurangi rasa hormat, kami mengundang rekan-rekan sekalian
+          untuk hadir dan turut memeriahkan acara Syukuran Pembukaan Saluga, serta memohon doa
+          agar acara ini berjalan lancar dan penuh kebersamaan.
         </div>
         <button
           className="text-lg border mt-6 px-4 py-1 border-primary text-primary bg-background rounded-md hover:text-background hover:bg-primary hover:border-background"
