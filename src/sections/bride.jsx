@@ -72,7 +72,7 @@ export default function Bride({ m }) {
             variants={vFadeInTop}
             className="text-center font-fira xs:text-sm mt-2"
           >
-            Bersama ini kami mengundang Bapak/Ibu/Saudara(i) kiranya berkenan hadir dalam Acara Syukuran Pembukaan Saluga (Saung Luhur Gawir) yang akan dilaksanakan pada:
+            Bersama ini kami mengundang Bapak/Ibu/Saudara(i) kiranya berkenan hadir dalam Acara Syukuran Saluga (Saung Luhur Gawir) yang akan dilaksanakan pada:
           </m.div>
         </m.div>
       </m.div>

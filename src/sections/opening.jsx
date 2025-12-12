@@ -34,7 +34,7 @@ export default function Opening({ handleOnOpen, transition }) {
 
         <div className="text-sm">
           Tanpa mengurangi rasa hormat, kami mengundang rekan-rekan sekalian
-          untuk hadir dan turut memeriahkan acara Syukuran Pembukaan Saluga, serta memohon doa
+          untuk hadir dan turut memeriahkan acara Syukuran Saluga, serta memohon doa
           agar acara ini berjalan lancar dan penuh kebersamaan.
         </div>
         <button

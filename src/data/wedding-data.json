@@ -43,6 +43,11 @@
     "/foto/10.jpeg"
   ],
   "photos": [
+    "/foto/15.jpeg",
+    "/foto/14.jpeg",
+    "/foto/13.jpeg",
+    "/foto/12.jpeg",
+    "/foto/11.jpeg",
     "/foto/10.jpeg",
     "/foto/9.jpeg",
     "/foto/8.jpeg",
@@ -52,7 +57,8 @@
     "/foto/4.jpeg",
     "/foto/3.jpeg",
     "/foto/2.jpeg",
-    "/foto/1.jpeg"
+    "/foto/1.jpeg",
+    "/foto/16.jpeg"
   ],
   "bank_accounts": {
     "account_no1": "",
