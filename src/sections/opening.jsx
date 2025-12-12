@@ -18,7 +18,8 @@ export default function Opening({ handleOnOpen, transition }) {
       }}
       variants={transition}
     >
-      <div className="p-8 xs:p-4 relative bg-primary text-background text-center font-alice">
+      <div className="relative flex flex-col justify-center items-center p-8 backdrop-filter bg-background/40 backdrop-brightness-[.75] font-alice">
+        <div className="absolute border-2 border-solid w-full h-full -top-2 -left-2 border-primary z-[-10]"></div>
         <div className="text-xl font-bold">Selamat Datang</div>
         <div className="text-sm italic">Bapak/Ibu/Saudara/i</div>
         <div className="text-xl my-2 font-alice font-bold">

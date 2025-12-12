@@ -1,8 +1,8 @@
 {
-  "theme": "brown",
+  "theme": "purple",
   "background": {
-    "one": "https://i.pinimg.com/originals/e6/ff/68/e6ff68863aca67c60be229ac8452a714.jpg",
-    "two": "https://i.pinimg.com/originals/4a/65/c3/4a65c3a8dbb8c999a19e3c68983ed4c7.jpg"
+    "one": "/background/bg-4.jpeg",
+    "two": "/background/bg-2.jpeg"
   },
   "groom": {
     "name": "Handon Suhendran",
@@ -21,13 +21,13 @@
   "address": "Malaka, Banyuresmi, Kec. Sukasari, Kabupaten Sumedang, Jawa Barat 45366",
   "map_url": "https://maps.app.goo.gl/CbJhZnyS9C5Q1a3J6",
   "date": {
-    "full_date": "20 Desember 2025",
+    "full_date": "21 Desember 2025",
     "day_text": "Minggu",
-    "day": 20,
+    "day": 21,
     "month": 12,
     "month_text": "Desember",
     "year": 2025,
-    "countdown_time": "2025-12-20T10:00:00+07:00",
+    "countdown_time": "2025-12-21T10:00:00+07:00",
     "akad_time": "08:00 - 10.00",
     "resepsi_time": "10:00 - Selesai"
   },
