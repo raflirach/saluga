@@ -1,10 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from "@/data/wedding-data.json";
 import Image from "next/image";
+import { createPortal } from "react-dom";
 const images = data.photos;
 
 export default function Gallery() {
   const [activeImage, setActiveImage] = useState(null);
+
+  useEffect(() => {
+    document.body.style.overflow = activeImage ? "hidden" : "";
+  }, [activeImage]);
 
   return (
     <div
@@ -36,22 +41,24 @@ export default function Gallery() {
       </div>
 
       {/* Modal */}
-      {activeImage && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
-          onClick={() => setActiveImage(null)}
-        >
-          <div className="relative max-w-4xl w-full">
-            <Image
-              src={activeImage}
-              alt=""
-              width={1200}
-              height={1600}
-              className="w-full rounded-lg"
-            />
-          </div>
-        </div>
-      )}
+      {activeImage &&
+        createPortal(
+          <div
+            className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 p-4"
+            onClick={() => setActiveImage(null)}
+          >
+            <div className="relative max-w-4xl w-full">
+              <Image
+                src={activeImage}
+                alt=""
+                width={1200}
+                height={1600}
+                className="w-full rounded-lg"
+              />
+            </div>
+          </div>,
+          document.body
+        )}
     </div>
   );
 }
