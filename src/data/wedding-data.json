@@ -27,9 +27,9 @@
     "month": 12,
     "month_text": "Desember",
     "year": 2025,
-    "countdown_time": "2025-12-21T10:00:00+07:00",
+    "countdown_time": "2025-12-21T09:00:00+07:00",
     "akad_time": "08:00 - 10.00",
-    "resepsi_time": "10:00 - Selesai"
+    "resepsi_time": "09:00 - Selesai"
   },
   "show_bank": false,
   "show_gallery": true,
@@ -43,6 +43,7 @@
     "/foto/10.jpeg"
   ],
   "photos": [
+    "/foto/16.jpeg",
     "/foto/15.jpeg",
     "/foto/14.jpeg",
     "/foto/13.jpeg",
@@ -57,8 +58,7 @@
     "/foto/4.jpeg",
     "/foto/3.jpeg",
     "/foto/2.jpeg",
-    "/foto/1.jpeg",
-    "/foto/16.jpeg"
+    "/foto/1.jpeg"
   ],
   "bank_accounts": {
     "account_no1": "",
