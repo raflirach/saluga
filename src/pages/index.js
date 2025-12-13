@@ -76,9 +76,9 @@ export default function Home() {
               setIsPlay={setIsPlay}
             />
             <m.div
-              initial={{ x: "-100%" }}
-              animate={{ x: "0%" }}
-              transition={{ etype: "spring", stiffness: 100, duration: 2 }}
+            // initial={{ x: "-100%" }}
+            // animate={{ x: "0%" }}
+            // transition={{ etype: "spring", stiffness: 100, duration: 2 }}
             >
               <Bride m={m} />
               <Countdown m={m} />
