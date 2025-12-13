@@ -13,7 +13,7 @@ export default function Gallery() {
 
   return (
     <div
-      className="relative p-4 mb-8"
+      className="relative px-4 pt-4 pb-16"
       style={{
         backgroundImage: `url(${data.background.two})`,
         backgroundSize: "fit auto",
@@ -22,7 +22,7 @@ export default function Gallery() {
       }}
     >
       {/* Masonry */}
-      <div className="columns-4 gap-2 space-y-2 p-2 backdrop-filter bg-background/40 backdrop-brightness-[.75]">
+      <div className="columns-3 gap-2 space-y-2 p-2 backdrop-filter bg-background/40 backdrop-brightness-[.75]">
         {images.map((src, i) => (
           <div
             key={i}
