@@ -13,6 +13,7 @@ export default function Gallery() {
 
   return (
     <div
+      id="gallery"
       className="relative px-4 pt-4 pb-16"
       style={{
         backgroundImage: `url(${data.background.two})`,
